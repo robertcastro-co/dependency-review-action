@@ -1,0 +1,24 @@
+name: Dependency review
+
+# Revisa en cada PR las dependencias introducidas y falla si traen
+# vulnerabilidades conocidas (GitHub Advisory DB). Es "solo nuevas" por
+# naturaleza: solo analiza el diff del PR (base...head).
+
+on:
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  dependency-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependency Review
+        uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
+          comment-summary-in-pr: on-failure
