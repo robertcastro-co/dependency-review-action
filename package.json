@@ -155,7 +155,7 @@
     "mat-currency-format": "0.0.4",
     "material-icons": "^0.3.1",
     "mdbootstrap": "^4.14.0",
-    "morgan": "^1.10.0",
+    "morgan": "^1.11.0",
     "ncp": "^2.0.0",
     "ng-animate": "^0.3.4",
     "ng-navigator-share": "^1.0.1",
