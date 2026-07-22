@@ -240,7 +240,7 @@
     "webpack": "^5.89.0",
     "webpack-bundle-analyzer": "^3.9.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1",
+    "webpack-dev-server": "^5.2.6",
     "ws": "^7.5.10",
     "xhr2": "^0.2.0",
     "xmlhttprequest": "^1.8.0"
