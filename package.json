@@ -83,7 +83,7 @@
     "json5": "2.2.3",
     "lodash": "4.18.0",
     "@xmldom/xmldom": "0.8.13",
-    "brace-expansion": "1.1.13",
+    "brace-expansion": "1.1.18",
     "picomatch": "2.3.2",
     "node-forge": "1.4.0",
     "loader-utils": "2.0.4",
